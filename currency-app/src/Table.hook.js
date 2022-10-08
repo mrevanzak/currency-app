@@ -3,6 +3,7 @@ import { useEffect, useState } from 'react';
 const useTable = () => {
   const [data, setData] = useState([]);
   const [loading, setLoading] = useState(true);
+  // eslint-disable-next-line no-unused-vars
   const [error, setError] = useState(null);
 
   useEffect(() => {
